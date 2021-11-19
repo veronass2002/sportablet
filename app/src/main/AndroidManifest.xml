@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Sportablet">
         <activity
+            android:name=".menu"
+            android:exported="true" />
+        <activity
+            android:name=".onboardingtutorial3"
+            android:exported="true" />
+        <activity
             android:name=".onboardingtutorial"
             android:exported="true" />
         <activity
