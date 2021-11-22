@@ -1,4 +1,4 @@
-package com.example.sportablet3;
+package com.example.sportablet;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -17,7 +17,7 @@ public class reg2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_reg);
+        setContentView(R.layout.activity_reg2);
         getSupportActionBar().hide();
     }
     public void Save(String login, String password)
@@ -36,7 +36,7 @@ public class reg2 extends AppCompatActivity {
         EditText log = findViewById(R.id.reg_username);
         EditText pass = findViewById(R.id.reg_password);
         Save(log.getText().toString(), pass.getText().toString());
-        Intent i = new Intent(reg.this, login.class);
+        Intent i = new Intent(reg2.this, login.class);
         startActivity(i);
     }
 

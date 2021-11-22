@@ -10,7 +10,7 @@ public class onboardingtutorial2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_onboardingtutorial2);
         getSupportActionBar().hide();
     }
     public void ocClick(View view) {

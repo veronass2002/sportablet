@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
                 } finally {
 
                     Intent i = new Intent(MainActivity.this,
-                            login.class);
+                            onboardingtutorial.class);
                     startActivity(i);
                     finish();
 
