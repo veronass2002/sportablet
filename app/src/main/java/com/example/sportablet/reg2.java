@@ -1,4 +1,4 @@
-package com.example.sportablet;
+package com.example.sportablet3;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -11,7 +11,7 @@ import android.view.View;
 import android.widget.EditText;
 
 
-public class reg extends AppCompatActivity {
+public class reg2 extends AppCompatActivity {
 
 
     @Override
@@ -39,6 +39,5 @@ public class reg extends AppCompatActivity {
         Intent i = new Intent(reg.this, login.class);
         startActivity(i);
     }
-
 
 }
